@@ -7,7 +7,7 @@ links so the reference set stays reproducible for anyone cloning the repo.
 | Block | Part | Link | Status |
 |---|---|---|---|
 | MCU | STM32G431RBT6 (LQFP-64) | https://jlcpcb.com/partdetail/STMicroelectronics-STM32G431RBT6/C431633 | Locked |
-| External DAC | AD5761 | https://www.analog.com/en/products/ad5761.html | TBD |
+| External DAC | AD5761RBRUZ-RL7 | https://jlcpcb.com/partdetail/AnalogDevices-AD5761RBRUZRL7/C515877 | Locked |
 | External ADC | ADS1263 | https://www.ti.com/product/ADS1263 | TBD |
 | Current sense amp | INA240 | https://www.ti.com/product/INA240 | TBD |
 | Output op-amp | ADA4522 | https://www.analog.com/en/products/ada4522-1.html | TBD |
