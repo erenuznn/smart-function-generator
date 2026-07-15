@@ -1,8 +1,7 @@
 # Datasheets
 
-PDFs are kept locally only (not committed, see `.gitignore`), since they're
-manufacturer copyrighted material. This file tracks exact part numbers and
-links so the reference set stays reproducible for anyone cloning the repo.
+PDFs are kept locally only (not committed, see `.gitignore`). 
+This file tracks exact part numbers and links so the reference set stays reproducible for anyone cloning the repo.
 
 | Block | Part | Link | Status |
 |---|---|---|---|
