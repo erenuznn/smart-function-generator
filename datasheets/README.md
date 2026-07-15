@@ -6,7 +6,7 @@ links so the reference set stays reproducible for anyone cloning the repo.
 
 | Block | Part | Link | Status |
 |---|---|---|---|
-| MCU | STM32G431 (or G474) | https://www.st.com/en/microcontrollers-microprocessors/stm32g4-series.html | TBD |
+| MCU | STM32G431RBT6 (LQFP-64) | https://jlcpcb.com/partdetail/STMicroelectronics-STM32G431RBT6/C431633 | Locked |
 | External DAC | AD5761 | https://www.analog.com/en/products/ad5761.html | TBD |
 | External ADC | ADS1263 | https://www.ti.com/product/ADS1263 | TBD |
 | Current sense amp | INA240 | https://www.ti.com/product/INA240 | TBD |
@@ -17,5 +17,3 @@ links so the reference set stays reproducible for anyone cloning the repo.
 | LDO (negative) | ADP7182 | https://www.analog.com/en/products/adp7182.html | TBD |
 | WiFi MCU | ESP32-WROOM-32 | https://www.espressif.com/en/products/modules/esp32 | TBD |
 
-Update the Status column as each part is locked in (checked against your
-actual supply/pin/timing requirements, not just "looks right").
