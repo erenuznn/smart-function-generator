@@ -1,0 +1,36 @@
+# KiCAD
+*.bak
+*-backups/
+*.kicad_pcb-bak
+_autosave-*
+fp-info-cache
+*.lck
+
+# LTspice
+*.raw
+*.op.raw
+*.log
+
+# STM32CubeIDE / STM32CubeMX
+Debug/
+Release/
+*.launch
+.metadata/
+
+# PlatformIO (if used instead)
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# ESP-IDF
+build/
+sdkconfig.old
+
+# Node / web UI
+node_modules/
+dist/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
