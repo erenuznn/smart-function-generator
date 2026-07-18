@@ -11,7 +11,7 @@ flowchart TD
 
     USB --> BOOST[TPS61040 - Boost Converter -> 13V]
     USB --> INV[TPS63700 - Inverter -> -13V]
-    USB --> DIGREG[3.3V Regulator TBD - LDO]
+    USB --> DIGREG[AMS1117-3.3 - LDO]
 
     BOOST --> LDOP[ADP7142 - LDO -> +12V]
     INV --> LDON[ADP7182 - LDO -> -12V]
