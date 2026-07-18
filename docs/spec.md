@@ -1,8 +1,6 @@
 # Spec Sheet
 
-Locked design targets. Update this file if any of these change, it's the
-reference everything else (schematic, firmware, characterization) gets
-checked against.
+Locked design targets.
 
 ## Output
 

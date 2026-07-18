@@ -3,8 +3,7 @@
 One file per week: `week-01.md`, `week-02.md`, etc. Images referenced from
 each week's entry live in `journal/images/week-XX/`.
 
-Write daily, briefly. This is a running log, not a polished writeup, that
-lives in `README.md` and `docs/`.
+This is a running log that lives in `README.md` and `docs/`.
 
 ## Entry format
 
@@ -26,7 +25,6 @@ lives in `README.md` and `docs/`.
 
 ## Tags
 
-Use inline tags to make entries greppable later:
 - `#decision` — a design decision was made
 - `#bug` — something didn't work and was debugged
 - `#measurement` — a real measurement/result was recorded

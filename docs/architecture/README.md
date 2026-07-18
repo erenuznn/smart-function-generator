@@ -1,6 +1,5 @@
 # Architecture
 
-Three focused views of the system, rather than one dense diagram.
 
 1. [Power Rail](./power-rail.md) — USB-C input through to regulated
    analog and digital supplies.
