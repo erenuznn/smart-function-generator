@@ -22,5 +22,3 @@ flowchart TD
     DIGREG --> MCU[STM32G431 - MCU]
     DIGREG --> ESP[ESP32 - WiFi MCU]
 ```
-
-**Open item:** digital 3.3V regulator part not yet selected.
