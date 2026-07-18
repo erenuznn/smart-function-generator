@@ -15,5 +15,6 @@ This file tracks exact part numbers and links so the reference set stays reprodu
 | Inverter / negative rail | TPS63700DRCR | https://jlcpcb.com/partdetail/TexasInstruments-TPS63700DRCR/C54792 | Locked |
 | LDO (positive) | ADP7142AUJZ-R7 | https://jlcpcb.com/partdetail/AnalogDevices-ADP7142AUJZR7/C514356 | Locked |
 | LDO (negative) | ADP7182AUJZ-R7 | https://jlcpcb.com/partdetail/AnalogDevices-ADP7182AUJZR7/C514358 | Locked |
+| LDO (Digital) | TBD | TBD | TBD |
 | WiFi MCU | ESP32-WROOM-32 | https://www.espressif.com/en/products/modules/esp32 | TBD |
 
