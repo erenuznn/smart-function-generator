@@ -45,13 +45,25 @@ Locked design targets.
 |---|---|
 | MCU | STM32G431RBT6 (LQFP-64) |
 | WiFi bridge | ESP32-WROOM-32-N4 (SMD, 4MB flash) |
-| MCU <-> DAC | SPI, 24-bit frame, timer+DMA triggered at 80kSps |
-| MCU <-> ADC | SPI, DRDY-interrupt driven (not fixed-rate polling) |
-| MCU <-> ESP32 | UART |
+| RTOS | FreeRTOS |
+| MCU <-> DAC | SPI1, 24-bit frame, timer+DMA triggered at 80kSps |
+| MCU <-> ADC | SPI2, DRDY-interrupt driven (not fixed-rate polling) |
+| MCU <-> ESP32 | UART, fixed-length binary frames |
 | ESP32 <-> UI | WiFi, WebSocket |
+| UI framework | React |
+
+## Mechanical / Physical
+
+| Item | Decision |
+|---|---|
+| Output connector | Banana jack |
+| Enclosure | Simple 3D printed box |
+| Repo license | MIT |
 
 ## Open items
 
-- Current limit comparator circuit topology not yet designed
 - Feedback resistor divider values for TPS61040, TPS63700, ADP7142, ADP7182 not yet calculated
+- Foldback comparator: specific IC and smooth vs snap response not yet chosen
 - Full waveform capture over WiFi limited by throughput; live view scoped to numeric telemetry + decimated/preview waveform, not full-bandwidth 10kHz capture (see Week 1 discussion)
+- ngspice model availability for locked parts not yet verified (needed before Week 2 simulation)
+- Debug/SWD header exposure plan not yet decided

@@ -72,7 +72,54 @@
 
 
 **Problem / confusion:**
--
+- Realized the need for another LDO to supply microcontrollers clean 3.3V
 
 **Next:**
--
+- Decide on LDO 5V - 3.3V
+- System architecture diagram drawing
+- Spec sheet table
+
+
+## Day 3 - 2026-07-18
+
+**Did:**
+- System architecture diagrams are created with mermaid,
+  selected LDO for digital power rail,
+  created spec table,
+  added MIT licence,
+
+
+**Decided:**
+- #decision Foldback current limiting confirmed as the behavior (not flat/
+  constant limit), protects against heat under sustained fault by reducing
+  both V and I together rather than pinning current at 100mA while voltage
+  collapses.
+
+- #decision Foldback topology: Option B, op-amp/comparator based stage
+  (not single-transistor). Precise trip point via resistor ratios +
+  reference voltage, avoids relying on a transistor's variable Vbe/beta.
+  Consistent with the precision-first approach used elsewhere (ADA4522,
+  INA240, etc). Specific IC and smooth-vs-snap response deferred.
+
+- #decision Firmware: FreeRTOS.
+
+- #decision SPI bus assignment: DAC on SPI1, ADC on SPI2.
+
+- #decision STM32 <-> ESP32 link: fixed-length binary frames over UART.
+
+- #decision Output connector: banana jacks.
+
+- #decision Enclosure: simple 3D printed box.
+
+- #decision UI framework: React.
+
+- #decision Repo license: MIT.
+
+**Problem:**
+- Toolchain choice from earlier (xschem + ngspice) flagged with a real
+  open item: need to verify ngspice-compatible models exist for the
+  locked parts before relying on it for Week 2 simulation work.
+
+**Next:**
+- Spice simulations 
+
