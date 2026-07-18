@@ -16,5 +16,5 @@ This file tracks exact part numbers and links so the reference set stays reprodu
 | LDO (positive) | ADP7142AUJZ-R7 | https://jlcpcb.com/partdetail/AnalogDevices-ADP7142AUJZR7/C514356 | Locked |
 | LDO (negative) | ADP7182AUJZ-R7 | https://jlcpcb.com/partdetail/AnalogDevices-ADP7182AUJZR7/C514358 | Locked |
 | LDO (Digital) | AMS1117-3.3 | https://jlcpcb.com/partdetail/Advanced_MonolithicSystems-AMS1117_33/C6186 | Locked |
-| WiFi MCU | ESP32-WROOM-32 | https://www.espressif.com/en/products/modules/esp32 | TBD |
+| WiFi MCU | ESP32-WROOM-32-N4 | https://jlcpcb.com/partdetail/EspressifSystems-ESP32_WROOM_32N4/C82899 | Locked |
 
