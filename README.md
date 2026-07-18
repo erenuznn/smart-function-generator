@@ -15,6 +15,10 @@ voltage, current, and power telemetry.
   ESP32 (WiFi bridge)
 - Interface: browser dashboard, real time waveform and telemetry display
 
+## Spec
+
+See [`docs/spec.md`](./docs/spec.md) for the full locked design targets.
+
 ## Architecture
 
 See [`docs/architecture/`](./docs/architecture/README.md) for the full
