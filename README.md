@@ -17,7 +17,10 @@ voltage, current, and power telemetry.
 
 ## Architecture
 
-[Diagram goes here once finalized]
+See [`docs/architecture/`](./docs/architecture/README.md) for the full
+block diagrams: power rail, signal generation path, and feedback
+connections.
+
 
 - **STM32**: DDS-style waveform synthesis (phase accumulator + DMA + timer),
   external DAC drive, current sense/ADC readback, fast analog current limit
