@@ -6,10 +6,13 @@ _autosave-*
 fp-info-cache
 *.lck
 
-# LTspice
+# ngspice / xschem
 *.raw
-*.op.raw
 *.log
+sim/models/*.lib
+sim/models/*.cir
+sim/models/*.mod
+sim/models/*.sub
 
 # STM32CubeIDE / STM32CubeMX
 Debug/
