@@ -40,7 +40,7 @@ connections.
 
 ```
 hardware/    KiCAD schematic and PCB layout files
-sim/         LTspice simulation files (output stage, current limiter, power)
+sim/         Xschem simulation files (output stage, current limiter, power)
 firmware/    STM32 and ESP32 firmware
 ui/          Web dashboard (browser UI)
 journal/     Weekly build log, written as the project happens
